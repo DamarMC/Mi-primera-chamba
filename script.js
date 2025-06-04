@@ -12,7 +12,7 @@ function mostrarMensaje() {
   saludo.classList.add('fade-out');
 
   setTimeout(() => {
-    alert("¡Hola! Soy Damar Steven, gracias por visitar mi sitio web 😄");
+    alert("Rico tonto🥵🥵");
     saludo.classList.remove('fade-out');
   }, 500);
 }

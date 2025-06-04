@@ -72,7 +72,7 @@ h2 {
 p,
 li {
   font-family: 'Roboto', sans-serif;
-  font-size: 30px;
+  font-size: 28px;
   margin-bottom: 15px;
   color: #5c5c5c;
 }
@@ -248,4 +248,32 @@ body.dark-mode button:hover {
     right: 10px;
     border: 2px solid rgba(255, 255, 255, 0.8);
   }
+}
+/* Redes sociales */
+
+#redes-sociales {
+  margin-top: 40px;
+  text-align: center;
+}
+
+#redes-sociales h2 {
+  font-size: 24px;
+  color: #005f99;
+  margin-bottom: 10px;
+}
+
+.iconos-redes a {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 15px;
+  background-color: #007acc;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.iconos-redes a:hover {
+  background-color: #005f99;
 }
