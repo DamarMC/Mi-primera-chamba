@@ -277,3 +277,22 @@ body.dark-mode button:hover {
 .iconos-redes a:hover {
   background-color: #005f99;
 }
+
+#playMusic {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#playMusic:hover {
+  background-color: #45a049;
+}
+.fade-out {
+  opacity: 0.5;
+  transition: opacity 0.5s ease-in-out;
+}
+
